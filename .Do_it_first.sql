@@ -19,3 +19,5 @@ CREATE TABLE users (
 
 INSERT INTO users (id, nick, pw, joinDate, lastLogin, tier, highScore) 
       VALUES ('master@lol.com', '마스터이', '1234', '2023-03-02 14:44:44', '2023-04-05 14:44:44', '돌', 1000000);
+INSERT INTO users (id, nick, pw, joinDate, lastLogin, tier, highScore) 
+      VALUES ('tester@hoon.com', '테스터훈', '1234', '2023-03-02 14:44:44', '2023-04-05 14:44:44', '돌', 100000);
